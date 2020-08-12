@@ -21,6 +21,8 @@ driver.find_element_by_xpath(
 time.sleep(2)
 
 driver.find_element_by_name("Where are you leaving from?").send_keys("SYO")
+
+time.sleep(2)
 print(driver.title)
 print(driver.current_url)
 time.sleep(3)
